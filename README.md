@@ -27,6 +27,7 @@ to your ~/.vimrc file, and then open Vim and run :PluginInstall.
 ## Usage
 
 There are currently only two commands run in normal mode:
-
-Ss              Save the current session.
-SS              Save the current session and save/write and quit all windows.
+```
+Ss         - This will save the current session.
+SS         - This will save the current session and save/write and quit all windows.
+```
