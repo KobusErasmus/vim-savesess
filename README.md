@@ -33,4 +33,4 @@ SS         - This will save the current session and save/write and quit all wind
 ```
 
 # About Author
-See (www.JacobusErasmus.com).
+See www.JacobusErasmus.com
