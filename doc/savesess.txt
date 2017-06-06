@@ -1,7 +1,15 @@
-# savesess
-Vim plugin for automatically creating, saving, and restoring sessions per file
+*savesess.txt*  Automatically create/save/load sessions
 
-# About
+Author: Jacobus Erasmus <info@JacobusErasmus.com>
+
+For Vim version 7.0 or later.
+
+Contents:
+    Description     |savesess|
+
+==============================================================================
+DESCRIPTION                                                         *savesess*
+
 This is a plugin to start Vim without file arguments to automatically load a
 session for the file being edited. Hence, unlike autosess
 (https://github.com/powerman/vim-plugin-autosess), which saves a session file
