@@ -12,12 +12,8 @@ A hidden session file with suffix ".vsess" is created when you quit a Vim file
 for the first time. This session file is created in the directory that the file
 you edit is in. To make unique session files, the session files contain the
 name of the file. For example, if you edit a file called "info.txt", the
-session file ".info.txt.vsess" will be created.
-
-Please note that this plugin may not be what you want. A session file is
-created for **every** file that you edit, including system config files, and thus
-session files are created all over the place. However, if you (as with me) want
-this to happen, then consider adding "*.vsess" in your .gitignore files.
+session file ".info.txt.vsess" will be created. Thus, you may want to consider
+adding "*.vsess" in your .gitignore files.
 
 ## Installation
 
@@ -28,3 +24,9 @@ Plugin 'kobuserasmus/vim-savesess'
 ```
 to your ~/.vimrc file, and then open Vim and run :PluginInstall.
 
+## Usage
+
+There are currently only two commands run in normal mode:
+
+Ss              Save the current session.
+SS              Save the current session and save/write and quit all windows.
