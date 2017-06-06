@@ -1,7 +1,7 @@
 # vim-savesess
 Vim plugin for automatically creating, saving, and restoring sessions per file
 
-## About
+# About
 This is a plugin to start Vim without file arguments to automatically load a
 session for the file being edited. Hence, unlike autosess
 (https://github.com/powerman/vim-plugin-autosess), which saves a session file
@@ -15,7 +15,7 @@ name of the file. For example, if you edit a file called "info.txt", the
 session file ".info.txt.vsess" will be created. Thus, you may want to consider
 adding "*.vsess" in your .gitignore files.
 
-## Installation
+# Installation
 
 Although not neccessary, I recommend using Vundle
 (https://github.com/VundleVim/Vundle.vim) to install savesess. To do this, add
@@ -24,10 +24,13 @@ Plugin 'kobuserasmus/vim-savesess'
 ```
 to your ~/.vimrc file, and then open Vim and run :PluginInstall.
 
-## Usage
+# Usage
 
 There are currently only two commands run in normal mode:
 ```
 Ss         - This will save the current session.
 SS         - This will save the current session and save/write and quit all windows.
 ```
+
+# About Author
+See (www.JacobusErasmus.com).
