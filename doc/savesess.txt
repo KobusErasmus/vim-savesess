@@ -24,7 +24,7 @@ name of the file. For example, if you edit a file called "info.txt", the
 session file ".info.txt.vsess" will be created.
 
 ==============================================================================
-COMMANDS                                                         *savesess*
+COMMANDS                                                   *savesess-commands*
 
 There are currently only two commands run in normal mode:
 
