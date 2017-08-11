@@ -14,14 +14,14 @@ let s:sess_name = expand('%:p:h') . '/.' . expand('%:t') . '.vsess'
 
 function s:LoadSession()
   if filereadable(s:sess_name)
-    execute "source " . s:sess_name
+    execute "source " . fnameescape(s:sess_name)
     syntax on
     hi Normal ctermfg=252 ctermbg=none
   endif
 endfunction
 
 function SESaveSession()
-  execute 'mksession! ' . s:sess_name
+  execute 'mksession! ' . fnameescape(s:sess_name)
 endfunction
 
 function SESaveSessionAndQuit()
