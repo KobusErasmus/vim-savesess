@@ -22,6 +22,7 @@ endfunction
 
 function SESaveSession()
   execute 'mksession! ' . fnameescape(s:sess_name)
+  silent exe '!echo colorscheme '.g:colors_name.' >> '.fnameescape(s:sess_name)
 endfunction
 
 function SESaveSessionAndQuit()
